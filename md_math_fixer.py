@@ -17,13 +17,14 @@ Markdown 数学公式自动标注工具 v2.1
 MATH_VARS = set([
     'x', 'y', 'z', 'u', 'v', 'w', 
     'k', 'i', 'j', 't', 'n', 'm',
-    'A', 'B', 'F', 'H', 'P', 'Q', 'R', 'K', 'I', 'S', 'Z', 'X', 'Y', # 矩阵常用
+    'A', 'B','D', 'F', 'H', 'P', 'Q', 'R', 'K', 'I', 'S', 'Z', 'X', 'Y', 'L','U', 'N', 'M', 'E', 'T', 'C', 'G',
+# 矩阵常用
     'theta', 'mu', 'sigma', 'alpha', 'beta', 'gamma', 'lambda', 'delta', 'phi', 'omega'
 ])
 
 # 2. 肯定是普通英文单词的（黑名单）
 ENGLISH_STOPWORDS = set([
-    'a', 'A', 'I', 'in', 'is', 'at', 'to', 'of', 'on', 'if', 'or', 'by', 'we', 'it', 'so', 'as', 'be',
+     'I', 'in', 'is', 'at', 'to', 'of', 'on', 'if', 'or', 'by', 'we', 'it', 'so', 'as', 'be',
     'slam', 'matrix', 'vector', 'filter', 'model', 'update', 'predict', 'estimate', 'map'
 ])
 
